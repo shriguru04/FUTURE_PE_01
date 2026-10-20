@@ -1,6 +1,95 @@
-node_modules
-dist
+
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+.pnpm-store/
+web_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.nuxt/
+.output/
+.vuepress/dist/
+.svelte-kit/
+**/.vitepress/dist/
+
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+lib-cov/
+
+# Caches
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+.grunt/
+.fusebox/
+.turbo/
+.astro/
+.docusaurus/
+.serverless/
+.firebase/
+.dynamodb/
+.vite/
+**/.vitepress/cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager files
+*.tgz
+.yarn-integrity
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Vite temporary files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Miscellaneous
 .DS_Store
+.tern-port
+.lock-wscript
+.node_repl_history
+.vscode-test/
+.snowpack/
+
+# Optional Gatsby cache
+# .cache/
+
+# Optional public directory exclusion
+# public/

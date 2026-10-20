@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CopyCraft AI: AI Website Copy Generator for Local Businesses
 
 **Future Interns Prompt Engineering Internship, Task 1**
@@ -466,3 +467,7 @@ Check that `.env` is not tracked (`git status` should not list it).
 ---
 
 *All business names, locations and example outputs in this project are fictional and illustrative. Nothing here is a customer testimonial or a measured result.*
+=======
+# FUTURE_PE_01
+Ai Website Copy Generator for Local Businesses- Future Interns Prompt Engineering Task
+

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>CopyCraft AI: Website Copy Generator for Local Businesses</title>
+    <meta name="description" content="Create clear, business-specific website copy for salons, cafes, clinics, agencies, gyms and more. Structured prompts, editable output, works offline in demo mode." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CopyCraft AI" />
+    <meta property="og:title" content="CopyCraft AI: Website Copy Generator for Local Businesses" />
+    <meta property="og:description" content="Structured prompts and editable website copy for local businesses. Demo mode works without an API key." />
+    <meta name="theme-color" content="#faf9f6" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      try {
+        var t = JSON.parse(localStorage.getItem('copycraft:theme:v1'));
+        if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>CopyCraft AI needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

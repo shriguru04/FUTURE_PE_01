@@ -1,0 +1,118 @@
+// Example inputs only. "Use This Template" prefills the generator; users edit before generating.
+// All names and details are fictional and illustrative.
+export const BUSINESS_TEMPLATES = [
+  {
+    id: 'salon', label: 'Salon', category: 'salon', tone: 'friendly', goal: 'appointments',
+    summary: 'A neighbourhood salon that wants more booked appointments.',
+    exampleHeadline: 'Welcome to Petal & Comb, where you leave feeling like yourself',
+    profile: {
+      name: 'Petal & Comb', category: 'salon', location: 'Koregaon Park, Pune',
+      description: 'A small neighbourhood salon offering hair, skin and nail services in a relaxed space.',
+      services: 'Haircut and styling, Hair colour, Facial, Manicure',
+      audience: 'Working professionals who want reliable appointments',
+      problem: 'Hard to find a salon that fits around a busy schedule',
+      usp: 'Early-morning and evening appointments', tone: 'friendly', language: 'English',
+      goal: 'appointments', keywords: 'hair salon',
+    },
+  },
+  {
+    id: 'cafe', label: 'Cafe', category: 'cafe', tone: 'conversational', goal: 'visits',
+    summary: 'A local cafe that wants more walk-in visits.',
+    exampleHeadline: 'Looking for coffee and a place to sit in Baner? Daily Grind is here to help',
+    profile: {
+      name: 'Daily Grind', category: 'cafe', location: 'Baner, Pune',
+      description: 'An independent cafe serving coffee, breakfast and light lunches with plenty of seating for work or meetings.',
+      services: 'Specialty coffee, All-day breakfast, Light lunches, Baked goods',
+      audience: 'Students, remote workers and local families',
+      problem: 'Hard to find a comfortable place to work or meet nearby',
+      usp: 'Plenty of seating and power sockets', tone: 'conversational', language: 'English',
+      goal: 'visits', keywords: 'cafe near me, work-friendly cafe',
+    },
+  },
+  {
+    id: 'clinic', label: 'Clinic', category: 'clinic', tone: 'trustworthy', goal: 'appointments',
+    summary: 'A general clinic. Copy avoids outcome promises and medical claims.',
+    exampleHeadline: 'Clear, respectful healthcare in Kothrud you can rely on',
+    profile: {
+      name: 'Riverside Family Clinic', category: 'clinic', location: 'Kothrud, Pune',
+      description: 'A family clinic offering consultations and routine check-ups with appointments by request.',
+      services: 'General consultations, Routine health check-ups, Vaccination appointments, Follow-up visits',
+      audience: 'Families and older adults in the neighbourhood',
+      problem: 'Long waits and unclear information before appointments',
+      usp: 'Plain-language explanations at every visit', tone: 'trustworthy', language: 'English',
+      goal: 'appointments', keywords: 'family clinic',
+    },
+  },
+  {
+    id: 'agency', label: 'Digital marketing agency', category: 'agency', tone: 'professional', goal: 'leads',
+    summary: 'A small agency that wants qualified enquiries.',
+    exampleHeadline: 'Northlane Digital: marketing that is built around your goals in Pune',
+    profile: {
+      name: 'Northlane Digital', category: 'agency', location: 'Pune',
+      description: 'A small digital marketing agency helping local businesses with search, social media and websites.',
+      services: 'Local SEO, Social media management, Website design, Paid advertising',
+      audience: 'Owners of local service businesses',
+      problem: 'Marketing spend with no clear plan or reporting',
+      usp: 'Plain-English monthly reporting', tone: 'professional', language: 'English',
+      goal: 'leads', keywords: 'digital marketing agency',
+    },
+  },
+  {
+    id: 'gym', label: 'Gym', category: 'gym', tone: 'energetic', goal: 'visits',
+    summary: 'A neighbourhood gym welcoming first-time members.',
+    exampleHeadline: 'Start moving with Ironleaf Fitness!',
+    profile: {
+      name: 'Ironleaf Fitness', category: 'gym', location: 'Aundh, Pune',
+      description: 'A neighbourhood gym with strength equipment, cardio machines and group sessions for all levels.',
+      services: 'Strength training, Group classes, Personal training, Beginner orientation',
+      audience: 'Beginners and returning gym-goers',
+      problem: 'Feeling unsure where to start in a gym',
+      usp: 'A beginner orientation for new members', tone: 'energetic', language: 'English',
+      goal: 'visits', keywords: 'gym near me',
+    },
+  },
+  {
+    id: 'retail', label: 'Retail store', category: 'retail', tone: 'friendly', goal: 'sales',
+    summary: 'A local store selling online and in person.',
+    exampleHeadline: 'Welcome to Greenhouse Goods, where finding the right thing feels simple',
+    profile: {
+      name: 'Greenhouse Goods', category: 'retail', location: 'Viman Nagar, Pune',
+      description: 'A home and garden store selling plants, planters and everyday home items.',
+      services: 'Indoor plants, Planters and pots, Gardening tools, Home decor',
+      audience: 'Home owners and first-time plant buyers',
+      problem: 'Not knowing which plants suit their space',
+      usp: 'Friendly help choosing plants for your space', tone: 'friendly', language: 'English',
+      goal: 'sales', keywords: 'plant shop',
+    },
+  },
+  {
+    id: 'education', label: 'Coaching institute', category: 'education', tone: 'trustworthy', goal: 'enquiries',
+    summary: 'A coaching institute that wants course enquiries.',
+    exampleHeadline: 'Brightpath Academy: clear, respectful learning you can rely on',
+    profile: {
+      name: 'Brightpath Academy', category: 'education', location: 'Shivajinagar, Pune',
+      description: 'A coaching institute offering small-batch classes for school students and competitive exam preparation.',
+      services: 'School tuition, Competitive exam preparation, Doubt-clearing sessions, Progress reviews',
+      audience: 'Parents and students in grades 8 to 12',
+      problem: 'Students who fall behind without anyone noticing',
+      usp: 'Small batches with regular progress reviews', tone: 'trustworthy', language: 'English',
+      goal: 'enquiries', keywords: 'coaching classes',
+    },
+  },
+  {
+    id: 'consulting', label: 'Consulting business', category: 'consulting', tone: 'minimalist', goal: 'enquiries',
+    summary: 'An independent consultant who wants project enquiries.',
+    exampleHeadline: 'Practical advice you can act on. Done well.',
+    profile: {
+      name: 'Meera Rao Consulting', category: 'consulting', location: 'Pune',
+      description: 'An independent consultant helping small businesses plan operations and improve processes.',
+      services: 'Process review, Operations planning, Team workflow design',
+      audience: 'Owners of small and growing businesses',
+      problem: 'Unclear processes that slow the team down',
+      usp: 'Recommendations in plain language', tone: 'minimalist', language: 'English',
+      goal: 'enquiries', keywords: 'business consultant',
+    },
+  },
+];
+
+export const getTemplate = (id) => BUSINESS_TEMPLATES.find((t) => t.id === id);
